@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulolaminas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/titulolaminas"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/titulobanderas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="@string/titulobanderas"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TableRow
+                    android:id="@+id/a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/banportugal"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:adjustViewBounds="false"
+                        android:onClick="banportugal"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/banportugal2" />
+
+                    <ImageButton
+                        android:id="@+id/banbrasil"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="banbrasil"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/banderabrasil2" />
+
+                    <ImageButton
+                        android:id="@+id/bancolombia"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="bancolombiaa"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/banderacolombia2" />
+
+                    <ImageButton
+                        android:id="@+id/banarg"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="banarg"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/banderaargentina2" />
+
+                </TableRow>
+
+
+                <TextView
+                    android:id="@+id/titulocolombia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="COLOMBIA"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TableRow
+                    android:id="@+id/b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/col1"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="armero"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/armero2" />
+
+                    <ImageButton
+                        android:id="@+id/col2"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="falcao"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/falcao2" />
+
+                    <ImageButton
+                        android:id="@+id/col3"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="james"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/james2" />
+
+                    <ImageButton
+                        android:id="@+id/col4"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="ospina"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/ospina2" />
+
+                </TableRow>
+
+
+                <TextView
+                    android:id="@+id/titulobrasil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="BRASIL"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <TableRow
+                    android:id="@+id/c"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/bra1"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="dida"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/dida2" />
+
+                    <ImageButton
+                        android:id="@+id/bra2"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="ney"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/neymar2" />
+
+                    <ImageButton
+                        android:id="@+id/bra3"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="dinho"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/ronaldihno2" />
+
+                    <ImageButton
+                        android:id="@+id/bra4"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="ronaldo"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/ronaldo2" />
+
+
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/tituloportugal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="PORTUGAL"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TableRow
+                    android:id="@+id/d"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/por1"
+                        android:layout_width="86dp"
+                        android:layout_height="80dp"
+                        android:onClick="cr7"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/cr72" />
+
+                    <ImageButton
+                        android:id="@+id/por2"
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:onClick="liedson"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/liedsonportugal2" />
+
+                    <ImageButton
+                        android:id="@+id/por3"
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:onClick="pepe"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/pepe2" />
+
+                    <ImageButton
+                        android:id="@+id/por4"
+                        android:layout_width="40dp"
+                        android:layout_height="80dp"
+                        android:onClick="porteropor"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/porteroportugal2" />
+                </TableRow>
+
+
+                <TextView
+                    android:id="@+id/tituloargentina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="ARGENTINA"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TableRow
+                    android:id="@+id/e"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/arg1"
+                        android:layout_width="89dp"
+                        android:layout_height="92dp"
+                        android:onClick="dima"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/di_maria2" />
+
+                    <ImageButton
+                        android:id="@+id/arg2"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="romero"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/romeroarg2" />
+
+                    <ImageButton
+                        android:id="@+id/arg3"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="messi"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/messiarg2" />
+
+                    <ImageButton
+                        android:id="@+id/arg4"
+                        android:layout_width="90dp"
+                        android:layout_height="82dp"
+                        android:onClick="higuain"
+                        android:scaleType="centerCrop"
+                        android:text="Button"
+                        app:srcCompat="@drawable/higuain2" />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/acerca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="acerca"
+                android:text="@string/acerca" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

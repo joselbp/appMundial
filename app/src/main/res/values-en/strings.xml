@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="creado">Create</string>
+    <string name="app_name">App Mundial</string>
+    <string name="titulolaminas">Stickers</string>
+    <string name="titulobanderas">Flags</string>
+    <string name="acerca">About</string>
+    <string name="textosplash">" Mobile application that will allow you to take control of your sheets for the Russian World Cup 2018"</string>
+    <string name="salir">Return</string>
+
+
+</resources>

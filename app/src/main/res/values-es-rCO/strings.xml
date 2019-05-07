@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Mundial</string>
+    <string name="titulolaminas">Titulo Laminas</string>
+    <string name="titulobanderas">Titulo Banderas</string>
+    <string name="acerca">Acerca</string>
+    <string name="creado">Creado por</string>
+    <string name="textosplash">Aplicación móvil que te permitirá llevar el control de tus láminas para el mundial de Rusia 2018</string>
+    <string name="salir">Regresar</string>
+</resources>
